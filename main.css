@@ -4,6 +4,10 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+p{
+    text-align: justify;
+}
+
 html{
 scroll-behavior: smooth;
 }
@@ -103,14 +107,64 @@ header{
     border-radius: 50px;
 }
 
-/*img{
+img{
     border-radius: 50px;
-}*/
+}
+
+.imagenes2 img{
+    border-style: dotted;
+}
+
+.imagenes3 img{
+    border-style: dashed solid;
+}
 
 .cuatro{
     margin: 20px;
 }
 
-.contacto{
-    width: 30px;
+.input1{
+    box-sizing: border-box;
+    width: 1339px;
+    height: 88px;
+    left: 20px;
+    top: 2000px;
+    border: 1px solid #000000;
+}
+
+.textarea1{
+    box-sizing: border-box;
+    width: 1339px;
+    height: 214px;
+    left: 38px;
+    top: 2323px;
+    border: 1px solid #000000;
+}
+
+.boton{
+    background-color: aquamarine;
+    box-sizing: border-box;
+    width: 195px;
+    height: 73px;
+    left: 40px;
+    top: 2574px;
+    border: 1px solid #22A900;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -1px red;
+}
+footer{
+    background-color: blue;
+    color: white;
+    width: 100%;
+    height: 99px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer span{
+    display: flex;
+    align-items: center;
+    margin: 40px;
 }
