@@ -1,6 +1,7 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 html{
@@ -27,6 +28,11 @@ header{
     justify-content: space-between;
 }
 
+.lista li{
+    padding: 20px;
+    list-style: none;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -44,7 +50,7 @@ header{
 
 .imagenes1{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .servicios{
@@ -53,11 +59,13 @@ header{
 
 .imagenes2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    border-radius: 50px;
 }
 
 .dos {
-    margin: 20px
+    
+    margin: 180px 20px 50px 20px;
        
 }
 
@@ -69,8 +77,40 @@ header{
 
 .imagenes3{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .tres   {
-    margin: 20px
+    margin: 20px;
+}
+
+.s1{
+    color: red;
+}
+
+.s2{
+    color: blue;
+}
+
+.s3{
+    color: green;
+}
+
+.s4{
+    color: aqua;
+}
+
+.imagenes1 img{
+    border-radius: 50px;
+}
+
+/*img{
+    border-radius: 50px;
+}*/
+
+.cuatro{
+    margin: 20px;
+}
+
+.contacto{
+    width: 30px;
 }
